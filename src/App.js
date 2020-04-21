@@ -4,7 +4,7 @@ import TextEditor from "./components/editor";
 export class App extends Component {
   render() {
     return (
-        <TextEditor />
+      <TextEditor />
     );
   }
 }

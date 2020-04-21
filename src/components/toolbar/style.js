@@ -7,7 +7,7 @@ export const ToolbarItem = styled.div`
   justify-content: center;
   align-items: center;
   margin-right: 5px;
-  background-color: #34495e;
+  background-color: #3E34C2;
   color: #fff;
   font-size: 16px;
   font-family: Oxygen, sans-serif;
@@ -15,13 +15,14 @@ export const ToolbarItem = styled.div`
   cursor: pointer;
   ${(props) =>
     props.isActive &&
-    `    transform: translateY(1px);
-    color: #34495e;
+    `
+    transform: translateY(1px);
+    color: #AF2A66;
     background-color: transparent;
     border: 1px solid #34495e;`}
   &:hover {
     transform: translateY(1px);
-    color: #34495e;
+    color: #AD0551;
     background-color: transparent;
     border: 1px solid #34495e;
   }

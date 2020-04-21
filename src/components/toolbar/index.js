@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { RenderInlineStyles, RenderBlockStyles } from "./RenderTypes";
+import { RenderInlineStyles } from "./RenderInlines";
+import { RenderBlockStyles } from './RenderBlocks';
 
 const ToolbarContainer = styled.div`
   display: flex;

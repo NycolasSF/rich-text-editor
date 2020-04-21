@@ -10,8 +10,7 @@ import {
   faCode,
   faListUl,
   faListOl,
-  faImage,
-  faVideo
+  faImage
   
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -63,12 +62,7 @@ const blockTypes = [
     label: "Image",
     style: "atomic",
     icon: <FontAwesomeIcon icon={faImage} />,
-  },
-  {
-    label: "Video",
-    style: "atomic",
-    icon: <FontAwesomeIcon icon={faVideo} />,
-  },
+  }
 ];
 
 
